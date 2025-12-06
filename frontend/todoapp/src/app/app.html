@@ -1,0 +1,15 @@
+<div class="header">
+  <div class="todo-list">
+    <h2>To-Do App</h2>
+
+  <div class="add-item">
+    <input type="text" [(ngModel)]="newtask" placeholder="add your task">
+    <button (click)="add_task()">Add</button>
+  </div>
+
+  <p *ngFor="let item of tasks" class="task-item">
+    {{ item.task }}
+      <button type="button" (click)="delete_task(item.id)">X</button>
+  </p>
+  </div>
+</div>

@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #153677, #6f0391);
+    padding: 10px;
+}
+
+.todo-list{
+    background: #fff;
+    width: 100%;
+    max-width: 540px;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px ;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.todo-list h2{
+    text-align: center;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.add-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #75747498;
+    border-radius: 30px;
+    padding-left: 15px;
+    margin-bottom: 35px;
+}
+
+input{
+    flex: 1;
+    border: none;
+    background: transparent;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+}
+
+.add-item button{
+    border: none;
+    outline: none;
+    background-color: #fa3d03;
+    color: #fff;
+    padding: 16px 40px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+p{
+    text-align: left;
+    color: #000000;
+    margin-top: 20px;
+    font-size: 17px;
+    padding: 10px 8px ;
+    user-select: none;
+    cursor: pointer;
+}
+
+
+.task-item{
+    margin-top: 13px;
+    padding: 8px 6px;
+}
+
+.task-item button{
+    float: right;
+    border: none;
+    outline: none;
+    background-color: #fa0303;
+    color: #ffffff;
+    font-size: 13px;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 5px;
+
+}
+
